@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>4-Season Property Care | Landscaping & Plowing</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1600x900') center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .feature-box img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .feature-box:hover {
+            transform: scale(1.05);
+            transition: 0.3s ease-in-out;
+        }
+        .testimonial {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .cta-btn {
+            background: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>4-Season Property Care</h1>
+        <p>Professional Landscaping & Snow Removal Services</p>
+        <a href="#contact" class="cta-btn">Get a Free Quote</a>
+    </header>
+
+    <section class="container text-center my-5">
+        <h2>Why Choose Us?</h2>
+        <div class="row">
+            <div class="col-md-4 feature-box p-3">
+                <img src="https://via.placeholder.com/400x300" alt="Spring & Summer">
+                <h3>Spring & Summer</h3>
+                <p>Lawn mowing, garden maintenance, and landscaping services.</p>
+            </div>
+            <div class="col-md-4 feature-box p-3">
+                <img src="https://via.placeholder.com/400x300" alt="Fall Cleanup">
+                <h3>Fall Cleanup</h3>
+                <p>Leaf removal, mulching, and preparing your lawn for winter.</p>
+            </div>
+            <div class="col-md-4 feature-box p-3">
+                <img src="https://via.placeholder.com/400x300" alt="Winter Snow Plowing">
+                <h3>Winter Snow Plowing</h3>
+                <p>Reliable snow removal services to keep your driveway clear.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center">Our Pricing</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Weekly Lawn Mowing</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Fall Cleanup</td>
+                    <td>$150</td>
+                </tr>
+                <tr>
+                    <td>Snow Plowing (per visit)</td>
+                    <td>$75</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center">What Our Customers Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"The best landscaping service I've ever used! Reliable and professional."</p>
+                    <strong>- Sarah L.</strong>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"Their snow plowing service saved us so many times last winter!"</p>
+                    <strong>- Mark D.</strong>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>"Great work at affordable prices. Highly recommend!"</p>
+                    <strong>- Emily R.</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5" id="contact">
+        <h2 class="text-center">Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <footer class="text-center p-4 bg-dark text-light">
+        <p>Contact us at (555) 123-4567 | info@4seasoncare.com</p>
+    </footer>
+</body>
+</html>
